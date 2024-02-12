@@ -5,7 +5,7 @@ const botToken = '6788095013:AAGGA7ckQLqp-D_cZKKdsY3QcpM-FKyOsls'; // Замен
 const userId = -1002120118788;
 const bot = new Telegraf(botToken);
 
-let questionCounter = 47; // Инициализируем счетчик вопросов
+let questionCounter = 71; // Инициализируем счетчик вопросов
 
 bot.start((ctx) => ctx.reply('Добро пожаловать в бота, где вы сможете отправлять анонимные вопросы, идеи или предложения. Пишите сюда ваш вопрос:'));
 // Обработчик события text
